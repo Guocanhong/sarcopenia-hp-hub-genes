@@ -1,0 +1,5 @@
+"Gene","AUC_biopsy_nominal","P_wilcox_biopsy","Spearman_vs_age","P_spearman_age","AUC_age_only","AUC_gene_only","AUC_gene_plus_age","P_gene_age_adjusted_biopsy","P_LRT_gene_beyond_age","P_wilcox_donor","P_gene_age_adjusted_donor"
+"C1QA",0.643,0.175,0.097,0.598,0.609,0.643,0.691,0.234,0.223,0.328,0.282
+"NFKBIA",0.719,0.0352,0.043,0.814,0.609,0.719,0.754,0.039,0.0268,0.13,0.1
+"DTL",0.508,0.956,0.191,0.296,0.609,0.508,0.602,0.682,0.681,1,0.662
+"CTNNBIP1",0.668,0.11,0.207,0.255,0.609,0.668,0.672,0.251,0.241,0.328,0.375
