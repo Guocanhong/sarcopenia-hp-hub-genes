@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90006916,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,MR Egger,21.3735588578124,13,0.0658611220993992
+ebi-a-GCST90006916,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,Inverse variance weighted,21.380379145821,14,0.092274561975674

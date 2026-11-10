@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006915,ukb-b-10215,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,Hand grip strength (right) || id:ukb-b-10215,0.10636759776013,8.57958406701082e-06,TRUE,9.91027560690043e-57,UREA_to_grip_right,10

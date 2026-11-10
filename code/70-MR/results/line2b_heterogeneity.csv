@@ -1,0 +1,13 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval,gene,outcome_trait,threshold
+eqtl-a-ENSG00000173372,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,ENSG00000173372 || id:eqtl-a-ENSG00000173372,MR Egger,2.57578960935423,3,0.461749758393616,C1QA,grip_right,5e-06
+eqtl-a-ENSG00000173372,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,ENSG00000173372 || id:eqtl-a-ENSG00000173372,Inverse variance weighted,3.6810582106747,4,0.450886891506055,C1QA,grip_right,5e-06
+eqtl-a-ENSG00000173372,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,ENSG00000173372 || id:eqtl-a-ENSG00000173372,MR Egger,10.9293851105229,3,0.0121139098623175,C1QA,alm,5e-06
+eqtl-a-ENSG00000173372,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,ENSG00000173372 || id:eqtl-a-ENSG00000173372,Inverse variance weighted,21.6617355458896,4,0.000234007885593503,C1QA,alm,5e-06
+eqtl-a-ENSG00000173372,ukb-b-4711,Usual walking pace || id:ukb-b-4711,ENSG00000173372 || id:eqtl-a-ENSG00000173372,MR Egger,3.15556864637688,3,0.368255880518044,C1QA,walking,5e-06
+eqtl-a-ENSG00000173372,ukb-b-4711,Usual walking pace || id:ukb-b-4711,ENSG00000173372 || id:eqtl-a-ENSG00000173372,Inverse variance weighted,3.83295330153415,4,0.429084937776601,C1QA,walking,5e-06
+eqtl-a-ENSG00000178585,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,ENSG00000178585 || id:eqtl-a-ENSG00000178585,MR Egger,0.156596054780398,1,0.692309980850066,CTNNBIP1,grip_right,5e-06
+eqtl-a-ENSG00000178585,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,ENSG00000178585 || id:eqtl-a-ENSG00000178585,Inverse variance weighted,5.67482179039937,2,0.0585771321329909,CTNNBIP1,grip_right,5e-06
+eqtl-a-ENSG00000178585,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,ENSG00000178585 || id:eqtl-a-ENSG00000178585,MR Egger,0.322684689142984,1,0.569998694492033,CTNNBIP1,alm,5e-06
+eqtl-a-ENSG00000178585,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,ENSG00000178585 || id:eqtl-a-ENSG00000178585,Inverse variance weighted,9.17221584694003,2,0.0101924510740876,CTNNBIP1,alm,5e-06
+eqtl-a-ENSG00000178585,ukb-b-4711,Usual walking pace || id:ukb-b-4711,ENSG00000178585 || id:eqtl-a-ENSG00000178585,MR Egger,8.42939238441248,1,0.00369203697045116,CTNNBIP1,walking,5e-06
+eqtl-a-ENSG00000178585,ukb-b-4711,Usual walking pace || id:ukb-b-4711,ENSG00000178585 || id:eqtl-a-ENSG00000178585,Inverse variance weighted,9.03380249437027,2,0.0109228183950082,CTNNBIP1,walking,5e-06

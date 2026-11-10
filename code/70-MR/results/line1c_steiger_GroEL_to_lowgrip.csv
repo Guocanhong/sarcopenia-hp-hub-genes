@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006913,ebi-a-GCST90007526,Helicobacter pylori GroEL antibody levels || id:ebi-a-GCST90006913,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,0.0412451518971679,3.52919436663201e-05,TRUE,3.64405348111307e-25,GroEL_to_lowgrip,4

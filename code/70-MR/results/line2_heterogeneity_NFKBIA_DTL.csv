@@ -1,0 +1,11 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval,gene,outcome_trait
+NFKBIA,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,NFKBIA_blood_cis_eQTL,MR Egger,3.06048616104506,3,0.382393092823584,NFKBIA,grip_right
+NFKBIA,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,NFKBIA_blood_cis_eQTL,Inverse variance weighted,3.55749964016085,4,0.469189426073242,NFKBIA,grip_right
+NFKBIA,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,NFKBIA_blood_cis_eQTL,MR Egger,2.04952180971793,3,0.562192145236925,NFKBIA,grip_left
+NFKBIA,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,NFKBIA_blood_cis_eQTL,Inverse variance weighted,2.21315779644422,4,0.696621092820188,NFKBIA,grip_left
+NFKBIA,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,NFKBIA_blood_cis_eQTL,MR Egger,20.1895237187958,3,0.000155062002009228,NFKBIA,alm
+NFKBIA,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,NFKBIA_blood_cis_eQTL,Inverse variance weighted,27.3430250481377,4,1.69438633486317e-05,NFKBIA,alm
+NFKBIA,ukb-b-4711,Usual walking pace || id:ukb-b-4711,NFKBIA_blood_cis_eQTL,MR Egger,1.69432637593345,3,0.638195908080882,NFKBIA,walking
+NFKBIA,ukb-b-4711,Usual walking pace || id:ukb-b-4711,NFKBIA_blood_cis_eQTL,Inverse variance weighted,1.74170958911519,4,0.783127815016101,NFKBIA,walking
+NFKBIA,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,NFKBIA_blood_cis_eQTL,MR Egger,2.53451721651655,3,0.46908533378145,NFKBIA,lowgrip60
+NFKBIA,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,NFKBIA_blood_cis_eQTL,Inverse variance weighted,5.15562604948761,4,0.271698767736819,NFKBIA,lowgrip60

@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006913,ukb-b-4711,Helicobacter pylori GroEL antibody levels || id:ebi-a-GCST90006913,Usual walking pace || id:ukb-b-4711,0.0412451518971679,4.43518488852416e-05,TRUE,4.18648104136148e-25,GroEL_to_walking,4

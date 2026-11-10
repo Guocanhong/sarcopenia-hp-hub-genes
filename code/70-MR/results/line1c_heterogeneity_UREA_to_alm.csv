@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90006915,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,MR Egger,11.627795945197,8,0.168599186675576
+ebi-a-GCST90006915,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,Inverse variance weighted,16.6851459545245,9,0.0538809999287807

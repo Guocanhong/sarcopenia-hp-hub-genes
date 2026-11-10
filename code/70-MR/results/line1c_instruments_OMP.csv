@@ -1,0 +1,11 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure
+ebi-a-GCST90006914,6,32652278,rs3104361,C,T,0.581879,0.181489,0.0293752,6.47978e-10,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,6,32766026,rs9276733,G,A,0.229896,0.195698,0.0364829,8.13523e-08,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,20,59326926,rs1892331,G,A,0.032321,0.376964,0.0761458,7.40048e-07,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,8,41936404,rs60949128,A,C,0.064465,-0.277296,0.0563277,8.52707e-07,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,1,158678095,rs703135,A,G,0.417825,-0.133184,0.0280688,2.08593e-06,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,2,2672878,rs55862931,C,G,0.258412,-0.146339,0.0316679,3.81812e-06,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,14,65353011,rs8019346,A,G,0.08492,0.229272,0.0498505,4.24141e-06,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,2,41824828,rs1156822,T,A,0.543158,-0.127607,0.0277813,4.36395e-06,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,2,24042805,rs143477841,A,G,0.012119,-0.572525,0.124655,4.3718e-06,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd
+ebi-a-GCST90006914,8,101374808,rs116944686,A,G,0.023319,0.417806,0.0913422,4.78344e-06,2640,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,TRUE,reported,igd

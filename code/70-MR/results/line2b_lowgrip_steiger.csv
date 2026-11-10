@@ -1,0 +1,3 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,gene,outcome_trait,threshold
+eqtl-a-ENSG00000173372,ebi-a-GCST90007526,ENSG00000173372 || id:eqtl-a-ENSG00000173372,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,0.0324423593653102,1.2167782346443e-05,TRUE,1.06054621606824e-184,C1QA,lowgrip,5e-06
+eqtl-a-ENSG00000178585,ebi-a-GCST90007526,ENSG00000178585 || id:eqtl-a-ENSG00000178585,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,0.0270293306195164,1.397202866594e-05,TRUE,4.96699194039259e-155,CTNNBIP1,lowgrip,5e-06

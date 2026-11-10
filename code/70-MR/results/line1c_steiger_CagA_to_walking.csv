@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006911,ukb-b-4711,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,Usual walking pace || id:ukb-b-4711,0.226275540789754,2.00695734882508e-05,TRUE,5.19653753804268e-58,CagA_to_walking,10

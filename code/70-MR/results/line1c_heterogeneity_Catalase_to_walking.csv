@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90006912,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Helicobacter pylori Catalase antibody levels || id:ebi-a-GCST90006912,MR Egger,14.070265791392,7,0.0499456284799042
+ebi-a-GCST90006912,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Helicobacter pylori Catalase antibody levels || id:ebi-a-GCST90006912,Inverse variance weighted,24.5121726631275,8,0.00187958653720885

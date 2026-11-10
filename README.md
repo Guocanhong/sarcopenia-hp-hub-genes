@@ -1,8 +1,13 @@
 # sarcopenia-hp-hub-genes
 
-Analysis code for **"Convergent, complement-centred inflammatory signatures in sarcopenia-model muscle and chronic *Helicobacter pylori*-infected mucosa are ageing-associated rather than sarcopenia-specific: an integrated bioinformatic analysis with disease-specificity controls"** (manuscript MD-D-26-16765, under review at *Medicine*).
+Analysis code for two companion manuscripts on *Helicobacter pylori* infection and sarcopenia:
 
-## Overview
+1. **Bioinformatic analysis** — "Convergent, complement-centred inflammatory signatures in sarcopenia-model muscle and chronic *Helicobacter pylori*-infected mucosa are ageing-associated rather than sarcopenia-specific: an integrated bioinformatic analysis with disease-specificity controls" (manuscript MD-D-26-16765, under review at *Medicine*).
+2. **Mendelian randomization analysis** — a two-sample MR triangulation of genetically predicted *H. pylori* seropositivity, antigen-specific antibody levels and blood hub-gene expression against sarcopenia-related traits (appendicular lean mass, grip strength, walking pace; submitted to *Scientific Reports*).
+
+---
+
+## Part 1 — Integrated bioinformatic analysis (`code/01`–`code/13`)
 
 Two disease lines were analysed in parallel on public GEO data:
 
@@ -10,8 +15,6 @@ Two disease lines were analysed in parallel on public GEO data:
 - ***H. pylori* line** — GSE27411 (*H. pylori*-positive vs. non-infected gastric mucosa)
 
 Pipeline: limma differential expression → 118 common DEGs → WGCNA key modules → 14-gene candidate pool → three machine-learning algorithms (LASSO, SVM-RFE, random forest) applied separately per line → four hub genes (C1QA, NFKBIA, DTL, CTNNBIP1) → ROC/nomogram, GSVA/ssGSEA, single-cell mapping, Human Protein Atlas immunohistochemistry, and third-disease specificity controls (psoriasis GSE13355; SLE GSE50772).
-
-## Repository structure
 
 | Folder | Content | Manuscript section |
 |---|---|---|
@@ -29,7 +32,7 @@ Pipeline: limma differential expression → 118 common DEGs → WGCNA key module
 | `code/12_tables_figures` | Figure assembly and final table generation | Tables 1–4 |
 | `code/13_specificity_sensitivity` | Third-disease specificity controls; phenotype-anchored, donor-level and age-sensitivity analyses (scripts and result CSVs) | 2.13, Notes 3–5 |
 
-## Data availability
+### Data availability (Part 1)
 
 All input datasets are publicly available on GEO:
 
@@ -49,16 +52,49 @@ Small result files referenced in the supplementary material of the manuscript ar
 - `HP_age_sensitivity_GSE5081.csv` — *H. pylori*-line age-sensitivity results in GSE5081
 - `GSE5081_donor_age_sex.csv` — donor-level age and sex metadata for GSE5081
 
+---
+
+## Part 2 — Mendelian randomization analysis (`code/70-MR/`)
+
+Scripts are numbered in execution order (`NN_*`), with letter suffixes (`b`, `c`) marking follow-up variants of the same step. All summary-level result files referenced in the manuscript (Tables 2–5, Table S2, Egger intercepts, weighted-mode estimates, leave-one-out profiles, Steiger backfills) are included in `code/70-MR/results/`.
+
+| Scripts | Content | Manuscript section |
+|---|---|---|
+| `00`–`05` (incl. `02b`–`02d`, `03b`) | Environment checks, OpenGWAS API access, IEU catalog search/download, GWAS dataset discovery, analysis configuration (`04_config.R`) | Methods 2.1–2.2 |
+| `06`, `06b`, `13` | Forward MR line: *H. pylori* seropositivity and IgG titer → sarcopenia traits; relaxed-threshold antigen-spectrum line (CagA, catalase, GroEL, OMP, UreA, VacA) | Methods 2.3, Results 3.1–3.3, Tables 2–3 |
+| `07`, `07b` | cis-eQTL MR line: blood expression of the four hub genes → sarcopenia traits (eQTLGen cis-eQTL) | Methods 2.4, Results 3.4–3.5, Table 4 |
+| `08`, `08b` | Reverse MR line: sarcopenia-related traits (ALM, grip, walking pace, self-reported infection) → seropositivity / titer | Methods 2.5, Results 3.6, Table 5 |
+| `14` | NFKBIA → ALM heterogeneity diagnostics | Results 3.4 |
+| `16` | MR-PRESSO outlier detection (main line) | Methods 2.6 |
+| `17`, `18`, `19` | Figure generation, table assembly, manuscript build | Figs. 1–6, Tables 1–5 |
+| `27`, `28` | Steiger directionality and Q backfill on frozen harmonised data (scripted re-run, no outcome-dependent selection) | Methods 2.6, Table S2 |
+| `37` | Proximate mediation test (seropositivity instruments → NFKBIA expression) | Discussion 4.3 |
+| `53` | MR-Egger intercept and weighted-mode backfill for all 47 exposure–outcome pairs | Table S2, Methods 2.6 |
+| `54` | Idempotent fill of Table S2 (Egger intercept P; weighted-mode P columns) | Table S2 |
+| `55` | NFKBIA → ALM leave-one-out sensitivity analysis (per-SNP exclusion) | Results 3.4 |
+| `21`, `45` | Grip-scope correction; Figure 1 regeneration | Methods 2.3, Fig. 1 |
+| `20`, `22`, `23`–`52` (remainder) | Manuscript QA: renumbering, claim/hedge audits, reference verification, spelling normalization, verification scripts (`39`, `41`), cover-letter builders (`50`, `52`) | — |
+
+### Reproducing Part 2 (`code/70-MR/`)
+
+1. **R ≥ 4.3** with TwoSampleMR, MungeSumstats, MR-PRESSO (and standard tidyverse); **Python ≥ 3.8** for the table/manuscript scripts.
+2. `04_config.R` points to a `data/` directory that must contain `token.txt` — your own OpenGWAS JWT from <https://api.opengwas.io> (free registration). **No credentials are included in this repository.**
+3. GWAS summary statistics are downloaded automatically from the IEU OpenGWAS database (accessions listed in Methods 2.1–2.2 and Table S1 of the manuscript).
+4. Scripts run in numerical order; harmonised datasets and result CSVs are written to the output directory configured in `04_config.R`. The files in `code/70-MR/results/` were generated by these scripts on the frozen analysis snapshot (2026-11-05 to 2026-11-09).
+5. `27`/`28`, `53`–`55` are post-hoc sensitivity backfills: they replay frozen harmonised inputs without any outcome-dependent model choice, as disclosed in Methods 2.6.
+
+---
+
 ## Software
 
-- R ≥ 4.3 (limma, WGCNA, glmnet, randomForest, e1071, pROC, rms, GSVA, clusterProfiler, Seurat, etc.)
-- Python ≥ 3.10 (Scanpy, matplotlib; single-cell preprocessing and figure assembly)
+- **Part 1**: R ≥ 4.3 (limma, WGCNA, glmnet, randomForest, e1071, pROC, rms, GSVA, clusterProfiler, Seurat, etc.); Python ≥ 3.10 (Scanpy, matplotlib)
+- **Part 2**: R ≥ 4.3 (TwoSampleMR, MungeSumstats, MR-PRESSO); Python ≥ 3.8 (pandas)
 
 The SVM-RFE implementation is based on the publicly available routine by [johncolby/SVM-RFE](https://github.com/johncolby/SVM-RFE); parameters are described in the manuscript (Methods 2.5).
 
 ## Citation
 
-If you reuse this pipeline, please cite the original manuscript (under review at *Medicine*).
+If you reuse either pipeline, please cite the corresponding manuscript (Part 1 under review at *Medicine*; Part 2 under review at *Scientific Reports*).
 
 ## Contact
 

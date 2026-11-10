@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval
+ukb-b-10215,ebi-a-GCST90006910,Hand grip strength (right) || id:ukb-b-10215,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,0.0179418612932686,0.0189159432544465,FALSE,0.735071359548791

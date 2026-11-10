@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006911,ukb-b-10215,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,Hand grip strength (right) || id:ukb-b-10215,0.226275540789754,4.85665942395949e-05,TRUE,1.81768799528749e-57,CagA_to_grip_right,10

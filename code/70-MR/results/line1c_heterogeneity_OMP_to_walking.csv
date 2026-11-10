@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90006914,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,MR Egger,6.76424300400267,6,0.34320129920357
+ebi-a-GCST90006914,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,Inverse variance weighted,10.9954261261377,7,0.138818655523615

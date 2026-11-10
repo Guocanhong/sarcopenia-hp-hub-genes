@@ -1,0 +1,2 @@
+key,n_iv,nb_distribution,seed,global_rssobs,global_pval,raw_estimate,raw_se,raw_pval,n_outliers,outlier_snps,corrected_estimate,corrected_se,corrected_pval,distortion_pval
+igg_pos_to_alm,11,1000,20261105,12.2430317048868,0.488,-0.0606762291570298,0.0170547825039919,0.000374080383679064,0,"",-0.0606762291570298,0.0170547825039919,0.000374080383679064,

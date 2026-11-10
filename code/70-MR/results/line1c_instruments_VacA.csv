@@ -1,0 +1,16 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure
+ebi-a-GCST90006916,5,124624902,rs1530121,C,T,0.86313,-0.266111,0.0511414,1.95637e-07,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,6,32434141,rs372744619,G,A,0.010519,0.887411,0.173802,3.29276e-07,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,22,20034187,rs9606224,T,C,0.029841,0.507461,0.10223,6.90876e-07,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,1,217309978,rs113063793,T,A,0.056242,0.373402,0.075648,7.97223e-07,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,7,32049959,rs77497849,G,A,0.119223,0.264227,0.0538191,9.12935e-07,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,3,94372336,rs113845906,A,G,0.045066,0.413478,0.0845187,9.97401e-07,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,9,110365310,rs7019543,T,G,0.320078,0.18107,0.0380994,2.00845e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,12,20062085,rs11044935,T,A,0.039367,0.428278,0.0905091,2.22454e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,22,48595971,rs133537,C,T,0.615079,-0.173609,0.0367088,2.25237e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,16,1332341,rs73500239,C,G,0.144805,0.236088,0.0500401,2.38199e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,10,129150690,rs59104649,T,A,0.014016,0.68347,0.147207,3.43534e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,10,90083333,rs117077218,T,C,0.016656,0.640222,0.138755,3.94903e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,12,28904914,rs148556020,A,T,0.016883,0.63085,0.137457,4.44427e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,1,9453174,rs72645538,G,A,0.011992,0.752792,0.164377,4.65715e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd
+ebi-a-GCST90006916,7,2981123,rs10246445,C,A,0.028197,-0.488144,0.106857,4.91972e-06,1571,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,TRUE,reported,igd

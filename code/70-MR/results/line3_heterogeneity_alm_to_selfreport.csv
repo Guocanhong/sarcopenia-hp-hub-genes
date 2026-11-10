@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90000025,ukb-b-531,"Non-cancer illness code, self-reported: helicobacter pylori || id:ukb-b-531",Appendicular lean mass || id:ebi-a-GCST90000025,MR Egger,365.812549382597,331,0.0911016910639284
+ebi-a-GCST90000025,ukb-b-531,"Non-cancer illness code, self-reported: helicobacter pylori || id:ukb-b-531",Appendicular lean mass || id:ebi-a-GCST90000025,Inverse variance weighted,367.21876076887,332,0.0890118889536151

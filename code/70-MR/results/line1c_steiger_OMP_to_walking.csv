@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006914,ukb-b-4711,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,Usual walking pace || id:ukb-b-4711,0.0776314260647415,2.51656434443473e-05,TRUE,5.36373940135916e-47,OMP_to_walking,8

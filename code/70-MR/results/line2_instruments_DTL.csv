@@ -1,0 +1,3 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure,p_threshold
+DTL,1,212286466,rs114478555,C,G,0.0362798,-0.205645,0.0317829,9.77462e-11,28924,DTL_blood_cis_eQTL,TRUE,reported,igd,1e-05
+DTL,6,32626130,rs7744020,A,G,0.298761,-0.0576393,0.0129941,9.16453e-06,28194,DTL_blood_cis_eQTL,TRUE,reported,igd,1e-05

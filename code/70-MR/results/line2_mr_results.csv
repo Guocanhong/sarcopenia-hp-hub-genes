@@ -1,0 +1,21 @@
+id.exposure,id.outcome,outcome,exposure,method,nsnp,b,se,pval,gene,outcome_trait
+NFKBIA,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,NFKBIA_blood_cis_eQTL,Inverse variance weighted (multiplicative random effects),5,-0.00144829937256068,0.00357228288992218,0.685163783448698,NFKBIA,grip_right
+NFKBIA,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,NFKBIA_blood_cis_eQTL,Inverse variance weighted (fixed effects),5,-0.00144829937256068,0.00378794275127133,0.702205793401359,NFKBIA,grip_right
+NFKBIA,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,NFKBIA_blood_cis_eQTL,MR Egger,5,-0.00540341565297504,0.00683712426960257,0.487060449118862,NFKBIA,grip_right
+NFKBIA,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,NFKBIA_blood_cis_eQTL,Weighted median,5,-0.00341217356913421,0.00420438450323823,0.417035511779887,NFKBIA,grip_right
+NFKBIA,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,NFKBIA_blood_cis_eQTL,Inverse variance weighted (multiplicative random effects),5,-0.00143444074254838,0.00281340143945272,0.610149575753671,NFKBIA,grip_left
+NFKBIA,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,NFKBIA_blood_cis_eQTL,Inverse variance weighted (fixed effects),5,-0.00143444074254838,0.00378229597912714,0.704501245167815,NFKBIA,grip_left
+NFKBIA,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,NFKBIA_blood_cis_eQTL,MR Egger,5,-0.00370049317795879,0.00675916798451805,0.622151274061231,NFKBIA,grip_left
+NFKBIA,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,NFKBIA_blood_cis_eQTL,Weighted median,5,-0.0023328233471512,0.00421311667404998,0.579780821211834,NFKBIA,grip_left
+NFKBIA,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,NFKBIA_blood_cis_eQTL,Inverse variance weighted (multiplicative random effects),5,-0.0444189277249943,0.0127362656765526,0.000487386995331693,NFKBIA,alm
+NFKBIA,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,NFKBIA_blood_cis_eQTL,Inverse variance weighted (fixed effects),5,-0.0444189277249943,0.00487134429231107,7.62326137790132e-20,NFKBIA,alm
+NFKBIA,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,NFKBIA_blood_cis_eQTL,MR Egger,5,-0.0251483977006968,0.0225623434034879,0.346268162848808,NFKBIA,alm
+NFKBIA,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,NFKBIA_blood_cis_eQTL,Weighted median,5,-0.0329163094439451,0.00589282338692139,2.32586721862031e-08,NFKBIA,alm
+NFKBIA,ukb-b-4711,Usual walking pace || id:ukb-b-4711,NFKBIA_blood_cis_eQTL,Inverse variance weighted (multiplicative random effects),5,0.00378668502722337,0.00212801427250218,0.0751667828189629,NFKBIA,walking
+NFKBIA,ukb-b-4711,Usual walking pace || id:ukb-b-4711,NFKBIA_blood_cis_eQTL,Inverse variance weighted (fixed effects),5,0.00378668502722337,0.0032249030324753,0.24031444344315,NFKBIA,walking
+NFKBIA,ukb-b-4711,Usual walking pace || id:ukb-b-4711,NFKBIA_blood_cis_eQTL,MR Egger,5,0.00482638351783157,0.00576310814744024,0.463800700762301,NFKBIA,walking
+NFKBIA,ukb-b-4711,Usual walking pace || id:ukb-b-4711,NFKBIA_blood_cis_eQTL,Weighted median,5,0.0050123916115139,0.00361278559357361,0.165318738591945,NFKBIA,walking
+NFKBIA,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,NFKBIA_blood_cis_eQTL,Inverse variance weighted (multiplicative random effects),5,-0.0124155063975493,0.0213801186425303,0.561440407374814,NFKBIA,lowgrip60
+NFKBIA,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,NFKBIA_blood_cis_eQTL,Inverse variance weighted (fixed effects),5,-0.0124155063975493,0.0188321281946803,0.509720724515451,NFKBIA,lowgrip60
+NFKBIA,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,NFKBIA_blood_cis_eQTL,MR Egger,5,-0.0575040314819914,0.0336194213133524,0.185711475572512,NFKBIA,lowgrip60
+NFKBIA,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,NFKBIA_blood_cis_eQTL,Weighted median,5,-0.0219760013326588,0.0206991254900613,0.288377607948532,NFKBIA,lowgrip60

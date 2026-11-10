@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90006913,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Helicobacter pylori GroEL antibody levels || id:ebi-a-GCST90006913,MR Egger,8.80081426772359,2,0.0122723423996566
+ebi-a-GCST90006913,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Helicobacter pylori GroEL antibody levels || id:ebi-a-GCST90006913,Inverse variance weighted,8.83335699206791,3,0.0315905402602223

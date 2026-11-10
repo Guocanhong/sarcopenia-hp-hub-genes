@@ -1,0 +1,3 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure,p_threshold
+CTNNBIP1,1,9927254,rs1220413,G,A,0.174574,0.417904,0.0152792,1.04954e-164,31030,CTNNBIP1_blood_cis_eQTL,TRUE,reported,igd,5e-08
+CTNNBIP1,1,10048875,rs149694992,T,C,0.0577688,-0.211225,0.0254485,1.03944e-16,27932,CTNNBIP1_blood_cis_eQTL,TRUE,reported,igd,5e-08

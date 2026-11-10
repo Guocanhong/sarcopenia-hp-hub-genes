@@ -1,0 +1,6 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure,p_threshold
+NFKBIA,14,35596323,rs72664840,T,C,0.180451,0.415351,0.0150766,4.52898e-167,14261,NFKBIA_blood_cis_eQTL,TRUE,reported,igd,5e-08
+NFKBIA,14,35871217,rs8904,A,G,0.382819,0.166505,0.012164,1.19426e-42,14263,NFKBIA_blood_cis_eQTL,TRUE,reported,igd,5e-08
+NFKBIA,12,6447522,rs4149577,A,G,0.537074,-0.110931,0.0118998,1.14183e-20,14263,NFKBIA_blood_cis_eQTL,TRUE,reported,igd,5e-08
+NFKBIA,14,35208471,rs10150395,G,A,0.281307,0.113059,0.0132025,1.09597e-17,10179,NFKBIA_blood_cis_eQTL,TRUE,reported,igd,5e-08
+NFKBIA,7,28724374,rs56388170,T,G,0.289189,0.0757131,0.0131119,7.72271e-09,14263,NFKBIA_blood_cis_eQTL,TRUE,reported,igd,5e-08

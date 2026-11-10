@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006915,ukb-b-4711,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,Usual walking pace || id:ukb-b-4711,0.10636759776013,1.95972635593781e-05,TRUE,3.06144858707099e-56,UREA_to_walking,10

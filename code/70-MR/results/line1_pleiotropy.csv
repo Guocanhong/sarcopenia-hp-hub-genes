@@ -1,0 +1,11 @@
+id.exposure,id.outcome,outcome,exposure,egger_intercept,se,pval,key
+ebi-a-GCST90006910,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,0.00491592659362648,0.00275714600563343,0.112438630767489,igg_pos_to_grip_right
+ebi-a-GCST90006910,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,0.00400629502395641,0.00297885360190088,0.215534346370182,igg_pos_to_grip_left
+ebi-a-GCST90006910,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,0.00503242594258775,0.00335368669602099,0.167706948483036,igg_pos_to_alm
+ebi-a-GCST90006910,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,0.00372762698123562,0.00285747326776441,0.228332436501499,igg_pos_to_walking
+ebi-a-GCST90006910,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,-0.00438324555635482,0.0139661402574548,0.760788950461631,igg_pos_to_lowgrip60
+ieu-b-4905,ukb-b-10215,Hand grip strength (right) || id:ukb-b-10215,Anti-Helicobacter pylori IgG levels || id:ieu-b-4905,0.0016213376660195,0.00190240531308325,0.414016758505079,igg_level_to_grip_right
+ieu-b-4905,ukb-b-7478,Hand grip strength (left) || id:ukb-b-7478,Anti-Helicobacter pylori IgG levels || id:ieu-b-4905,0.00283432428835453,0.00189959794090821,0.166540617100769,igg_level_to_grip_left
+ieu-b-4905,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,Anti-Helicobacter pylori IgG levels || id:ieu-b-4905,0.00129079969049218,0.00549678414662951,0.819080652112564,igg_level_to_alm
+ieu-b-4905,ukb-b-4711,Usual walking pace || id:ukb-b-4711,Anti-Helicobacter pylori IgG levels || id:ieu-b-4905,0.00114225463184432,0.00162027699161943,0.496917091095776,igg_level_to_walking
+ieu-b-4905,ebi-a-GCST90007526,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,Anti-Helicobacter pylori IgG levels || id:ieu-b-4905,-0.00519115664506689,0.0094591473394791,0.595184429350139,igg_level_to_lowgrip60

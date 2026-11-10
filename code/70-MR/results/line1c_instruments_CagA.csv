@@ -1,0 +1,16 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure
+ebi-a-GCST90006911,6,32561915,rs3998182,C,T,0.27555,0.284762,0.0548049,2.03718e-07,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,15,90495509,rs11858369,G,A,0.068381,0.437721,0.0864978,4.18177e-07,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,13,102123887,rs56264437,A,G,0.603666,0.233903,0.0491972,1.99031e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,3,25908239,rs75170215,C,T,0.02057,0.743256,0.156416,2.01614e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,1,181820561,rs116421363,C,A,0.363202,-0.223345,0.0475812,2.67942e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,16,10974221,rs118006294,C,T,0.050367,-0.475295,0.101815,3.03837e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,11,105212623,rs117827497,G,A,0.030462,-0.583731,0.125147,3.09585e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,8,15111565,rs6530847,A,T,0.391211,-0.210266,0.0452734,3.41154e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,12,98890443,rs149747348,C,G,0.013186,-0.895407,0.194003,3.92292e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,16,46420007,rs553266653,C,A,0.033679,-0.731511,0.158708,4.04287e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,6,162760485,rs571061419,A,G,0.074197,-0.392137,0.0852358,4.2125e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,11,94351805,rs117537486,C,G,0.03072,0.596789,0.129736,4.22474e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,4,159123611,rs75740599,A,G,0.252886,0.235842,0.0512963,4.27307e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,11,1606147,rs138363822,G,A,0.426282,0.218333,0.0475038,4.30427e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd
+ebi-a-GCST90006911,10,81319354,rs4268452,T,C,0.071203,-0.384976,0.0840329,4.62189e-06,985,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,TRUE,reported,igd

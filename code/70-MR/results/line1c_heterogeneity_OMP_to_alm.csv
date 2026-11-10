@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90006914,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,MR Egger,32.3064081027078,7,3.56328143250636e-05
+ebi-a-GCST90006914,ebi-a-GCST90000025,Appendicular lean mass || id:ebi-a-GCST90000025,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,Inverse variance weighted,32.449920408272,8,7.7348193744041e-05

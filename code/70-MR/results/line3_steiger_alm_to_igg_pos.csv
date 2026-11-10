@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval
+ebi-a-GCST90000025,ebi-a-GCST90006910,Appendicular lean mass || id:ebi-a-GCST90000025,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,0.144108073986199,0.0805272557541967,TRUE,1.86770346966641e-23

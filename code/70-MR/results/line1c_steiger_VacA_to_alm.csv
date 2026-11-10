@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006916,ebi-a-GCST90000025,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,Appendicular lean mass || id:ebi-a-GCST90000025,0.218679378561137,0.000119106930308153,TRUE,1.23919372038909e-85,VacA_to_alm,15

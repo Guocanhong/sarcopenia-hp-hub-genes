@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006912,ukb-b-10215,Helicobacter pylori Catalase antibody levels || id:ebi-a-GCST90006912,Hand grip strength (right) || id:ukb-b-10215,0.130607568264256,1.2351284315726e-05,TRUE,2.58365094362585e-49,Catalase_to_grip_right,9

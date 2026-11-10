@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval
+ukb-b-10215,ukb-b-531,Hand grip strength (right) || id:ukb-b-10215,"Non-cancer illness code, self-reported: helicobacter pylori || id:ukb-b-531",0.0110196071787984,0.000237255819488451,TRUE,0

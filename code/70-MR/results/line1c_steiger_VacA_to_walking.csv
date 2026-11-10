@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006916,ukb-b-4711,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,Usual walking pace || id:ukb-b-4711,0.218679378561137,4.28102758478169e-05,TRUE,4.0276507168801e-87,VacA_to_walking,15

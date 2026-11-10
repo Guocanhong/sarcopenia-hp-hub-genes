@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006911,ebi-a-GCST90000025,Helicobacter pylori CagA antibody levels || id:ebi-a-GCST90006911,Appendicular lean mass || id:ebi-a-GCST90000025,0.335168894795009,8.21883880164978e-05,TRUE,1.57078201930609e-92,CagA_to_alm,15

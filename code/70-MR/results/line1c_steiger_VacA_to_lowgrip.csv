@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006916,ebi-a-GCST90007526,Helicobacter pylori VacA antibody levels || id:ebi-a-GCST90006916,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,0.218679378561137,7.77215600322583e-05,TRUE,4.02036165535122e-86,VacA_to_lowgrip,15

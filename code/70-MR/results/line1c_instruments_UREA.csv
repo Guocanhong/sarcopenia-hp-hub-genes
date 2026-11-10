@@ -1,0 +1,11 @@
+id.exposure,chr.exposure,pos.exposure,SNP,effect_allele.exposure,other_allele.exposure,eaf.exposure,beta.exposure,se.exposure,pval.exposure,samplesize.exposure,exposure,mr_keep.exposure,pval_origin.exposure,data_source.exposure
+ebi-a-GCST90006915,6,23380648,rs71569678,C,A,0.060345,0.340169,0.0613821,2.99316e-08,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,12,129244638,rs12820262,A,G,0.177117,0.206073,0.0393175,1.59496e-07,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,12,4003258,rs61907106,A,G,0.048196,-0.358847,0.0702596,3.26543e-07,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,19,8188056,rs117994655,A,G,0.032509,0.402018,0.0828335,1.21409e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,4,4659633,rs4689912,C,T,0.267281,-0.158009,0.0331663,1.89657e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,3,152849257,rs9289888,T,C,0.066303,0.272084,0.0573847,2.12236e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,14,80136052,rs60386004,T,A,0.158161,0.191768,0.0407276,2.49482e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,17,76370080,rs143570118,T,C,0.029208,0.434126,0.0926047,2.75962e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,8,68794331,rs75477465,A,G,0.034029,0.374873,0.0802966,3.03242e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd
+ebi-a-GCST90006915,22,26543287,rs134748,T,G,0.653005,-0.142202,0.0306515,3.49551e-06,2251,Helicobacter pylori UREA antibody levels || id:ebi-a-GCST90006915,TRUE,reported,igd

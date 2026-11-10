@@ -1,0 +1,6 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,key
+ebi-a-GCST90006910,ukb-b-10215,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Hand grip strength (right) || id:ukb-b-10215,0.0262101875486892,2.72261551536591e-05,TRUE,1.6282931481814e-48,igg_pos_to_grip_right
+ebi-a-GCST90006910,ukb-b-7478,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Hand grip strength (left) || id:ukb-b-7478,0.0262101875486892,2.68069986810284e-05,TRUE,1.54173660553159e-48,igg_pos_to_grip_left
+ebi-a-GCST90006910,ebi-a-GCST90000025,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Appendicular lean mass || id:ebi-a-GCST90000025,0.0287138353732102,5.08777657633209e-05,TRUE,5.12617258867755e-52,igg_pos_to_alm
+ebi-a-GCST90006910,ukb-b-4711,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Usual walking pace || id:ukb-b-4711,0.0262101875486892,3.23799182735077e-05,TRUE,3.11063401645642e-48,igg_pos_to_walking
+ebi-a-GCST90006910,ebi-a-GCST90007526,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Low hand grip strength (60 years and older) (EWGSOP) || id:ebi-a-GCST90007526,0.0287138353732102,4.83566814070669e-05,TRUE,2.0560695796609e-51,igg_pos_to_lowgrip60

@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006914,ukb-b-10215,Helicobacter pylori OMP antibody levels || id:ebi-a-GCST90006914,Hand grip strength (right) || id:ukb-b-10215,0.0776314260647415,2.55906558631694e-05,TRUE,5.52562435267838e-47,OMP_to_grip_right,8

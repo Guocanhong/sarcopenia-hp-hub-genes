@@ -1,0 +1,2 @@
+id.exposure,id.outcome,exposure,outcome,snp_r2.exposure,snp_r2.outcome,correct_causal_direction,steiger_pval,pair,n_snps_used
+ebi-a-GCST90006912,ebi-a-GCST90000025,Helicobacter pylori Catalase antibody levels || id:ebi-a-GCST90006912,Appendicular lean mass || id:ebi-a-GCST90000025,0.130607568264256,0.000117039018017047,TRUE,1.77805315066629e-47,Catalase_to_alm,9

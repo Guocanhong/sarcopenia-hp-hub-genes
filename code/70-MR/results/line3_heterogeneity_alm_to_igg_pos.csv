@@ -1,0 +1,3 @@
+id.exposure,id.outcome,outcome,exposure,method,Q,Q_df,Q_pval
+ebi-a-GCST90000025,ebi-a-GCST90006910,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Appendicular lean mass || id:ebi-a-GCST90000025,MR Egger,682.859735414984,657,0.234971611126243
+ebi-a-GCST90000025,ebi-a-GCST90006910,Anti-helicobacter pylori IgG seropositivity || id:ebi-a-GCST90006910,Appendicular lean mass || id:ebi-a-GCST90000025,Inverse variance weighted,682.859747779246,658,0.243478221878459
